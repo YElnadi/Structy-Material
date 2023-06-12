@@ -7,7 +7,7 @@ You can assume that the list is non-empty.
 '''
 
 def max_value(nums):
-    max = -1 
+    max = float('-inf') 
     for num in nums:
         if num > max:
             max = num
@@ -23,3 +23,15 @@ print(max_value([42]))
 print(max_value([1000, 8]))
 print(max_value([1000, 8, 9000]))
 print(max_value([2, 5, 1, 1, 4]))
+
+
+'''
+Complexity
+n : number of array elements 
+we use loop to iteriate over each element
+Time: O(n)
+
+we dont store any variable so I only hve a constant
+variable which is max so,
+Space: O(1)
+'''
