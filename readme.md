@@ -1,0 +1,1 @@
+## Thank you for visiting my repository. Here, I utilize Python to tackle a problem from Structy every day until I complete the entire set of problems. Simultaneously, I am enhancing my current projects by incorporating exciting features to make them market-ready. If there are any opportunities you come across, please don't hesitate to reach out to me.
