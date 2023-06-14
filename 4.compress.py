@@ -34,3 +34,9 @@ print(compress('ssssbbz'))
 print(compress('ppoppppp'))
 print(compress('nnneeeeeeeeeeeezz'))
 print(compress('yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy'))
+
+
+'''
+time complexity: O(n)
+space complexity: O(n)
+'''
