@@ -24,3 +24,11 @@ print(uncompress("4s2b"))
 print(uncompress("2p1o5p"))
 print(uncompress("3n12e2z"))
 print(uncompress("127y"))
+
+
+'''
+n : group of input (3e)
+m: group of the output (eee)
+time complexity = O(nm)
+space complexity = O(nm)
+'''
