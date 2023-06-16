@@ -6,13 +6,18 @@ You can assume that the input string is non-empty.
 
 def most_frequent_char(s1):
     s1_dict = {}
-
+    
     for char in s1:
         if char not in s1_dict:
             s1_dict[char] = 0
         s1_dict[char] += 1
 
-    return max(s1_dict, key=s1_dict.get)
+    most_frequent = s1[0]
+    for char in s1: #potato
+        if s1_dict[char] > s1_dict[most_frequent]:
+            most_frequent = char
+    return most_frequent
+
 
 print(most_frequent_char('bookeeper'))
 print(most_frequent_char('david'))
