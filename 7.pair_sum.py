@@ -8,7 +8,6 @@ There is guaranteed to be one such pair that sums to the target.
 '''
 def pair_sum(lst, target):
     for i in range(len(lst)):
-        print('i', i)
         for j in range(i + 1, len(lst)):
             if lst[i] + lst[j] == target:
                 return (i, j)
