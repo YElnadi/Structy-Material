@@ -1,12 +1,16 @@
-def depth_first_print(graph,start ):
-    stack = [start]
-    while len(stack)>0 :
-        current = stack[-1]
-        print(current)
-        stack.pop()
-        for neighbor in graph[current]:
-            stack.append(neighbor)
+# def depth_first_print(graph,start ):
+#     stack = [start]
+#     while len(stack)>0 :
+#         current = stack[-1]
+#         print(current)
+#         stack.pop()
+#         for neighbor in graph[current]:
+#             stack.append(neighbor)
 
+def depth_first_print(graph, current):
+    print(current)
+    for neighbor in graph[current]:
+        depth_first_print(graph, neighbor)
 
 
 graph = {
