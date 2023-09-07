@@ -18,7 +18,7 @@ def breadth_first_print(graph, start):
     while len(queue) > 0:
         current = queue[0]
         print(current)
-        queue.popleft()  # runs in a constant time
+        queue.popleft()  # runs in a constant time O(1)
         for neighbor in graph[current]:
             queue.append(neighbor)
 
