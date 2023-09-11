@@ -33,5 +33,5 @@ graph = {
 }
 
 
-# depth_first_print(graph, "a")
-breadth_first_print(graph, "a")
+depth_first_print(graph, "a")
+#breadth_first_print(graph, "a")
